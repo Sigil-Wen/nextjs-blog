@@ -12,10 +12,9 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this in{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+      <p>Hey! I'm Sigil. A 17 y/o video wizard, programmer, and entrepreneur from Toronto.<br />
+        Founder of <a href="https://sigil.digital" target="_blank">Sigil Digital</a>, a creative agency, have a <a href="https://www.youtube.com/channel/UC68dN9l5fEaefElL728K6bA" target="_blank">personal youtube channel</a>, and write at <a href="https://oneskillaweek.com" target="_blank">oneskillaweek.com</a> <br/>
+        Currently working with Justin Kan to grow <a href="https://justin.quest"target="_blank">The Quest</a>{' '}
         </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
